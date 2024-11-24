@@ -1,0 +1,36 @@
+.section div {
+    overflow: hidden;
+    
+}
+.section img {
+    width: 100%;
+    transition: all .5s ;
+}
+  .section div img:hover{
+    transform: scale(1.1);
+}
+.footer {
+    border-top: 1px gray solid;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.7;
+  }
+  .footer span {
+    font-weight: bold;
+  
+    
+  }
+  .footer .icons2{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+   
+  
+  }
+  .footer .icons2 li {
+    background-color: var(--nav-dropdown-background-color);
+    color: var(--nav-dropdown-hover-color);
+    padding: 10px;
+    border-radius: 50%;
+  }
